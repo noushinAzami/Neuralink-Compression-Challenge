@@ -28,5 +28,5 @@ To evaluate:
 To evaluate with information on performance:
 
 ```
-./eval_with_perf
+./eval_with_perf.sh
 ```

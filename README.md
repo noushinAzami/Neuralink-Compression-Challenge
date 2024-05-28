@@ -1,19 +1,23 @@
 
-Please download input data from [here](https://content.neuralink.com/compression-challenge/README.html).
+### Download Input Data
 
+You can download the input data from [here](https://content.neuralink.com/compression-challenge/README.html).
 
+### Compilation Instructions
 
-To compile in serial:
+**Serial Compilation:**
 
 ```
 ./compile
 ```
 
-To compile in parallel using OpenMP:
+**Parallel Compilation using OpenMP:**
 
 ```
 ./compile --openmp
 ```
+
+### Evaluation
 
 To evaluate:
 
@@ -26,4 +30,3 @@ To evaluate with information on performance:
 ```
 ./eval_with_perf
 ```
-
